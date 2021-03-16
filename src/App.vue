@@ -5,7 +5,7 @@
 
 
     <div class="link-nav">
-      <router-link to="/" ><img src='./assets/escudo.png'/></router-link> 
+      <router-link to="/" ><img src='./assets/marvel.png'/></router-link> 
       <router-link to='/about'>Login</router-link>
 
     </div>   
