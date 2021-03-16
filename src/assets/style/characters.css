@@ -1,0 +1,101 @@
+/*
+    .container{
+       display: flex;
+       justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .container .heores{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        background:url(https://i.pinimg.com/736x/60/00/83/60008390f09b019da95ce1ebe34e95d4.jpg);
+        height: 300px;
+        font-family: 'Courier New', Courier, monospace;
+
+        
+    }
+    .heores :hover{
+        background: #151515;
+color: #e62429;
+-webkit-transition: color .3s;
+transition: color .3s;
+    }
+
+   .container a{
+        color:white;
+     
+    }
+
+    */
+
+    .card-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top:120px
+
+    }
+    .card{
+        text-align: center;
+        background:url(https://i.pinimg.com/736x/60/00/83/60008390f09b019da95ce1ebe34e95d4.jpg);
+        margin: 15px;
+        width: 200px;
+        height: 300px;
+       
+        
+    }
+    .card h3{
+        color:white;
+        margin-top:40px;
+        height: 30px;
+       
+    }
+
+
+
+    .btn-view{
+        padding: 10px;
+        position: relative;
+        cursor: pointer;
+        width: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        background:black;
+        opacity: 0.6;
+        color:white;
+        top:90px;
+    }
+
+    .btn-view:hover{
+        background:black;
+        color:rgb(134, 15, 15);
+        opacity: 1;
+    }
+    .card:hover{
+        opacity: 1;
+        background: url(https://i.pinimg.com/236x/9a/23/a2/9a23a2b9387448ab981445113908d7f1.jpg);
+        
+    }
+    .card{
+        transition:linear 0.5s;
+        
+    }
+
+    .btn-danger{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 160px;
+        top:120px
+    }
+    button img{
+        width: 20px;
+        justify-content: center;
+
+    }
+
+    

@@ -1,0 +1,75 @@
+/*
+    div .heroe{
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.description{
+    width: auto;
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+}
+  p{
+        text-align: center;
+        display: flex;
+        text-shadow: 2px 2px 0px black;
+        align-content: center;
+    }
+
+*/
+
+.container-card{
+    display: flex;
+    justify-content: center;
+}
+.container-heroe{
+   width: 80%;
+   text-align: center;
+   margin: 120px 0px 20px 0px;
+   background: rgba(114, 114, 114, 0.7);
+   border-radius: 10px;
+   padding: 10px;
+    color:white;
+    text-shadow: 2px 2px 0px black;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container-heroe img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 400px){
+    .container-heroe{
+        width: 80%;
+        text-align: center;
+        margin: 120px 0px 20px 0px;
+        background: rgba(114, 114, 114, 0.7);
+        border-radius: 10px;
+        padding: 10px;
+         color:white;
+         text-shadow: 2px 2px 0px black;
+     }
+     
+     .description{
+         font-size: 15px;
+         font-weight: bold;
+         padding: 10px;
+         margin-top: 20px;
+     }
+     .container-heroe img{
+         width: 150px;
+         border-radius: 10px;
+     }
+    
+}
